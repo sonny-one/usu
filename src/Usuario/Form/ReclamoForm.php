@@ -17,10 +17,11 @@ class ReclamoForm extends Form {
         // radio***************************** Reclamo o sujerencias
 
 
-
+/*
         $this->add(array(
             'name' => 'ReclamoSugerencia',
             'id' => 'ReclamoSugerencia',
+            'class'=>'toggle',
             'type' => 'radio',
             'options' => array(
                 // 'label' => 'Disabled Access',
@@ -32,7 +33,7 @@ class ReclamoForm extends Form {
                 ),
             'attributes' => array('value' => null),
         ));
-
+*/
         // Text //////////////////////////////// id_usuario 
         $this->add(array(
             'type' => 'hidden',

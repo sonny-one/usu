@@ -21,14 +21,14 @@
                                                
                                                  echo $this->formRow($this->form->get('id_usuario'));
                                            ?>
-                                                 <div class="form-group">
-                                        <?php
-                                       
-                                        
-                                    echo $this->formRow($this->form->get('ReclamoSugerencia'));
-                                
-                                    ?> 
-                                             </div>
+                                        <div class="form-group">
+                                        <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-default active">
+                                        <input type="radio" name="ReclamoSugerencia" value="Reclamo" id="ReclamoSugerencia"class="toggle">Reclamo</label>
+                                        <label class="btn btn-default">
+                                        <input type="radio" name="ReclamoSugerencia" value="Sugerencia" id="ReclamoSugerencia"class="toggle">Sugerencia</label>
+                                        </div>
+                                        </div>
                                         <div class="form-group">
                                             <label>Departamento</label>
                                             <?php  
